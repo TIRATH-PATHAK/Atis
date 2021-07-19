@@ -1,0 +1,301 @@
+.head .logo img{
+    padding-top: 95px;
+    margin-left: 210px;
+}
+
+.head .logo .navBar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1%;
+    position: relative;
+    left: 42%;
+    top: -60px;
+}
+
+.main .back img{
+    margin-top: -80px;
+    background-size: cover;
+    width: 100%;
+}
+
+.main .title{
+    text-align: center;
+    margin-top: -40%;
+    padding-bottom: 18%;
+}
+
+.main .title img{
+    width: 26%;
+    margin-top: 1.5%;
+    margin-left: 1%;
+    
+}
+
+.main .title p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(75, 148, 247);
+}
+
+
+.main .title .subTitle .offer button{
+    padding: 0.5%;
+    width: 10%;
+    border-radius: 40px;
+    border: 1px white;
+    color: blue;
+    
+}
+
+.color{
+    background-color: blue;
+    padding: 4%;
+    margin-top: -16%;
+    
+}
+.main .searchBottom{
+   
+    margin-bottom: 8%;
+    width: 0px auto;
+    margin-left: 0.5%;
+    font-size: 10px;
+
+   
+    
+}
+.main .searchBottom ul li{
+    list-style-type: none;
+    display: inline-block;
+  
+    
+  
+    
+
+}
+
+.main .searchBottom ul li input{
+    width: 50%;
+    
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    border-color: white;
+    background: transparent;
+    color: white;
+    
+   
+}
+
+
+
+.main .searchBottom ul li img{
+    position: relative;
+    left: 910%;
+    margin-top: 15%;
+    margin-bottom: 9%;
+    top: -75px;
+    width: 70%;
+}
+
+::placeholder{
+    color: white;
+}
+
+
+.popular .title .MainFirst .First{
+    width: 36%;
+    float: left;
+    margin-left: 1%;
+
+}
+
+.popular .title .MainFirst .First .first_top img,.first_bottom img{
+    width: 80%;
+}
+.popular .title .MainFirst .second{
+    max-width: 33%;
+    height: auto;
+    float: left;
+    margin-left: -6%;
+}
+
+.popular .title .MainFirst .second img{
+    width: 115%;
+}
+.popular .title .MainFirst .third{
+    max-width: 32%;
+    height: auto;
+    float: left;
+  
+}
+
+.popular .title .MainFirst .third img{
+    width: 89%;
+    margin-left: 17%;
+}
+
+.popular .MainSecond .left ,.right{
+    float: left;
+    width: 50%;
+    height: auto;
+    
+}
+
+.popular .MainSecond img{
+    width: 94%;
+    margin-left: 2%;
+}
+
+.topTags .tops img{
+    width: 70%;
+    
+}
+
+.topTags{
+    margin-left: 5%;
+    padding: 2%;
+   
+}
+
+.topTags .tops{
+    float: left;
+    width: 25%;
+
+    margin-top: 5%;
+  
+    
+    
+}
+
+.topTags .tops .name-doller{
+    display: inline-block;
+    width: 100%;
+    
+}
+
+.topTags .tops .rating{
+    width: 100%;
+}
+
+.topTags .tops .btn{
+    float: left;
+    padding-left: 22%;
+    margin-bottom: 7%;
+}
+
+.topTags .tops .rating .rating_star{
+    width: 49%;
+   display: inline-block;
+}
+
+.topTags .tops .rating .rating_star img{
+    width: 42%;
+}
+
+
+.topTags .tops .name_doller_sub{
+    float: left;
+    width: 50%;
+}
+
+.BottomTags{
+    margin-left: 5%;
+    padding: 2%;
+}
+
+.BottomTags .bottoms img{
+    width: 70%;
+}
+
+.BottomTags .bottoms .name-doller{
+    display: inline-block;
+    width: 100%; 
+}
+
+.BottomTags .bottoms .rating{
+    width: 100%;
+}
+
+.BottomTags .bottoms .rating .rating_star{
+    width: 49%;
+   display: inline-block;
+}
+
+.BottomTags .bottoms .rating .rating_star img{
+    width: 42%;
+}
+
+.BottomTags .bottoms .name_doller_sub{
+    float: left;
+    width: 50%;
+}
+
+.BottomTags  .bottoms {
+    float: left;
+    width: 25%;
+
+}
+
+.BottomTags .bottoms .btn{
+    float: left;
+    padding-left: 22%;
+    margin-bottom: 7%;
+    
+    
+    
+}
+
+button{
+    border-radius: 40px;
+    border: 1px solid white;
+    height: 35px;
+    color: blue;
+
+}
+
+
+
+.blog .img{
+    background-image: url('/Atis/html/assets/images/waterbg.png');
+    padding: 20%;
+    background-size: cover;
+}
+
+.blog .img .head{
+    text-align: center;
+}
+
+
+.blog .img .head h3{
+    font-size: 40px;
+    
+    color: white;
+}
+
+.blog .img .head p{
+    font-size: 20px;
+    
+    color: white;
+}
+
+.footer{
+    text-align: center;
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  
+}
+
+.footer img{
+   width: 20%;
+}
+.clearfix {
+    display: block;
+}
+
+.clearfix:before,.clearfix:after {
+    content: '';
+    width: 100%;
+    display: table;
+}
