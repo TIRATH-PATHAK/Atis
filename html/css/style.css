@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+/*
+margin: 10px; << From All sides
+margin: 10px 20px; << 10px from top-bottom and 20px from left right
+margin: 10px 20px 30px;
+margin: 10px 20px 30px 40px;
+
+*/
+
+/* Global CSS Declarations */
+* { box-sizing: border-box; }
+body { margin:0; padding: 0; font-family:'Roboto', sans-serif; font-size:16px; line-height: 1.5; color: #697899;  }
+img { max-width: 100%; height: auto; vertical-align: middle; }
+h1, h2, h3, h4, h5, h6 {  }
+.container, .wrapper { max-width: 1600px; width: 100%; display: block; margin: 0 auto; }
+a { color: #017dfb; text-decoration: none; }
+
+
+/* Section wise // Page wise CSS */
+/* 1. Index Page */
