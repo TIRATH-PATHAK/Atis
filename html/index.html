@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
-    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/index.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="./css/index.css"> -->
+    <!-- <script src="./js/index.js"></script> -->
     <title>Atis</title>
 </head>
 <body>
@@ -13,25 +16,37 @@
     <!-- Header Section  -->
 
         <header class="head">
+            <div class="container">
             <div class="logo">
                 <div class="nav_logo">
                     <img src="./assets/images/Atis.png" alt="Atis Logo">
-                            
-                            <ul>
-                                <li>Flights</li>
-                                <li>Hotel</li>
-                                <li>Explore</li>
-                                <li>Restaurants</li>
-                                <li>Things to do</li>
-                                <li>About Greece</li>
-                                <li>Become a Host</li>
-                            </ul>
-                        
+                </div>        
+
+                <div class="nav_logo">
+                    <ul>
+                        <li>Flights</li>
+                        <li>Hotel</li>
+                        <li>Explore</li>
+                        <li>Restaurants</li>
+                        <li>Things to do</li>
+                        <li>About Greece</li>
+                        <li><button type="button"> Become a Host</button></li>
+                    </ul>
+                </div>
+                
+                <div class="head_title">  
+                    <img src="./assets/images/greece.png" alt="Greece">
+                    <div class="subTitle">
+                        <p>Welcome to Heaven</p>
+                    </div>
+                        <div class="head_offer">
+                            <button type="button"><p>Check Offer</p></button>
+                        </div>
+                    
                 </div>
                    
-                   
             </div>
-           
+        </div>
               
         </header>
 
@@ -40,36 +55,27 @@
         
             <section class="main">
                 <div class="container">
-                <div class="back">
-                    <img src="./assets/images/bg.png" alt="Background-Image">
-                </div>
-                    <div class="title">  
-                        <img src="./assets/images/greece.png" alt="Greece">
-                        <div class="subTitle">
-                            <p>Welcome to Heaven</p>
-                            <div class="offer">
-                                <button type="button">Check Offer</button>
-                            </div>
-                        </div>
-                    </div>
+                
+                    
                     <div class="searchBottom">
                         <ul>
                             <li>
                                 <img src="./assets/images/city.png" alt="City">
-                                <input type="text" name="city" id="city" placeholder="City"> 
+                              <span id="city"><input type="text" name="city" id="city" placeholder="City"> </span>  
                             </li>
+                        <span id="move">
                             <li>
-                                    <img src="./assets/images/checkin.png" alt="Checkin">
+                             <img src="./assets/images/checkin.png" alt="Checkin">
                                     <input type="text" name="checkin" id="checkin" placeholder="Check In">
                                
                             </li>
                             <li>
                               
-                                <img src="./assets/images/checkout.png" alt="checkout">
+                              <img src="./assets/images/checkout.png" alt="checkout">
                                 <input type="text" name="checkout" id="checkout" placeholder="Check Out">
                             </li>
                             <li>
-                                <img src="./assets/images/home.png" alt="Rooms">
+                               <img src="./assets/images/home.png" alt="Rooms">
                                 <input type="text" name="rooms" id="rooms" placeholder="Rooms">
                             </li>
                             <li>
@@ -86,8 +92,10 @@
                             </li>
                            
                             <span class="search">
-                            <img src="./assets/images/search.png" alt="Search">
+                          <li><img src="./assets/images/search.png" alt="Search"></li>
                             </span>  
+
+                        </span>
                         </ul>
                         <div class="color"></div>
                     </div>
@@ -100,28 +108,37 @@
 
             <section class="popular">
                 <div class="container">
-                    <div class="title">
+                    <div class="popular_title">
                         <h3>Most Popular Places</h3>
-                        <div class="MainFirst clearfix">
-                            <div class="First"> 
+                        <div class="MainFirst">
+                            <div class="first_imgs"> 
                                 <div class="first_top">
-                                    
+                                    <h2>Thessaloniki</h2>
                                     <img src="./assets/images/Thessaloniki.png" alt="Thessaloniki">
                                 </div>
                                 <div class="first_bottom">
+                                    <h2>Halkidiki</h2>
                                     <img src="./assets/images/Halkidiki.png" alt="Halkidiki">
                                 </div>
                             </div>
-                            <div class="second">
+                            <div class="second_imgs">
+                                <h1>Crete</h1>
+                               <div class="txt">
+                                   <div class="t"><span id="aaa">11 Flights</span></div>
+                                   <div class="t"><span id="aaa">48 Restaurants</span></div>
+                                   <div class="t"><span id="aaa">32 Hotels</span></div>
+                               </div>
                                 <img src="./assets/images/Crete.png" alt="Crete">
                             </div>
                                 
-                            <div class="third">
+                            <div class="third_imgs">
                                 <div class="last_top">
+                                    <h2>Athens</h2>
                                     <img src="./assets/images/Athens.png" alt="Athens">
                                 </div>
 
                                 <div class="last_bottom">
+                                    <h2>Mykonos</h2>
                                     <img src="./assets/images/mykonos.png" alt="mykonos">
                                 </div>
                             </div>
@@ -129,11 +146,13 @@
                         </div>
 
                         <div class="MainSecond clearfix">
-                            <div class="left">
+                            <div class="left_right">
+                                <h2>Metora</h2>
                                 <img src="./assets/images/Metora.png" alt="Metora">
                             </div>
 
-                            <div class="right">
+                            <div class="left_right">
+                                <h2>Myrtos Beach</h2>
                                 <img src="./assets/images/myrtos_beach.png" alt="myrtos_beach">
                             </div>
                         </div>
@@ -145,17 +164,17 @@
 
             <section class="hotel">
                 <div class="container">
-                    <h3>Most Popular Places</h3>
+                    <h3>Most Popular Hotels     </h3>
                     <div class="topTags clearfix">
                         <div class="tops">
                             <img src="./assets/images/card.png" alt="Card">
-                                <div class="text">
+                                <div class="text_top">
                                 <div class="name_doller_main">
                                     <div class="name_doller_sub">
                                         <p>El Greco</p>
                                     </div>
 
-                                    <div class="name_doller_sub">
+                                    <div class="name_doller_sub1">
                                     <p class='doller'>255$
                                         
                                     </p>
@@ -166,29 +185,30 @@
                                         <div class="rating_star">
                                             <img src="./assets/images/4_star.png" alt="Rating">
                                         </div>
-                                        <div class="rating_star">
+                                        <div class="rating_star1">
                                             <p> 10 days</p>
                                         </div>
                                     </div>
-                                    <div class="btn">
-                                        <button type="button">
-                                            View More
-                                        </button>
-                                    </div>
+                                   
+                                </div>
+                                <div class="btn">
+                                    <button type="button">
+                                        View More
+                                    </button>
                                 </div>
                             </img>
                         </div>
 
                         <div class="tops">
                             <img src="./assets/images/card.png" alt="Card">
-                                <div class="text">
+                                <div class="text_top">
                                     <div class="name_doller_main">
                                         <div class="name_doller_sub">
                                             <p>El Greco</p>
     
                                         </div>
     
-                                        <div class="name_doller_sub">
+                                        <div class="name_doller_sub1">
                                         <p class='doller'>255$</p>
     
                                     </div>
@@ -197,28 +217,29 @@
                                         <div class="rating_star">
                                             <img src="./assets/images/4_star.png" alt="Rating">
                                         </div>
-                                        <div class="rating_star">
+                                        <div class="rating_star1">
                                         <p> 10 days</p>
                                         </div>
                                     </div>
-                                    <div class="btn">
-                                        <button type="button">
-                                            View More
-                                        </button>
-                                    </div>
+                                    
+                                </div>
+                                <div class="btn">
+                                    <button type="button">
+                                        View More
+                                    </button>
                                 </div>
                             </img>
                         </div>
 
                         <div class="tops">
                             <img src="./assets/images/card.png" alt="Card">
-                                <div class="text">
+                                <div class="text_top">
                                 <div class="name_doller_main">
                                     <div class="name_doller_sub">
                                         <p>El Greco</p>
 
                                     </div>
-                                    <div class="name_doller_sub">
+                                    <div class="name_doller_sub1">
                                     <p class='doller'>255$</p>
 
                                     </div>
@@ -228,30 +249,31 @@
                                         <div class="rating_star">
                                             <img src="./assets/images/4_star.png" alt="Rating">
                                         </div>
-                                        <div class="rating_star">
+                                        <div class="rating_star1">
                                         <p> 10 days</p>
                                         </div>
                                     </div>
 
-                                    <div class="btn">
-                                        <button type="button">
-                                            View More
-                                        </button>
-                                    </div>
+                                    
+                                </div>
+                                <div class="btn">
+                                    <button type="button">
+                                        View More
+                                    </button>
                                 </div>
                             </img>
                         </div>
 
                         <div class="tops">
                             <img src="./assets/images/card.png" alt="Card">
-                                <div class="text">
+                                <div class="text_top">
                                 <div class="name_doller_main">
                                     <div class="name_doller_sub">
                                         <p>El Greco</p>
 
                                     </div>
 
-                                    <div class="name_doller_sub">
+                                    <div class="name_doller_sub1">
                                     <p class='doller'>255$</p>
 
                                     </div>
@@ -261,15 +283,16 @@
                                         <div class="rating_star">
                                             <img src="./assets/images/4_star.png" alt="Rating">
                                         </div>
-                                        <div class="rating_star">
+                                        <div class="rating_star1">
                                             <p>10 days</p>
                                         </div>
                                     </div>
-                                    <div class="btn">
-                                        <button type="button">
-                                            View More
-                                        </button>
-                                    </div>
+                                   
+                                </div>
+                                <div class="btn">
+                                    <button type="button">
+                                        View More
+                                    </button>
                                 </div>
                             </img>
                         </div>
@@ -279,14 +302,14 @@
                     <div class="BottomTags clearfix">
                         <div class="bottoms">
                             <img src="./assets/images/card.png" alt="Card">
-                                <div class="text">
+                            <div class="text_bottom">
                                 <div class="name_doller_main">
                                     <div class="name_doller_sub">
                                         <p>El Greco</p>
 
                                     </div>
 
-                                    <div class="name_doller_sub">
+                                    <div class="name_doller_sub1">
                                     <p class='doller'>255$</p>
 
                                     </div>
@@ -296,29 +319,30 @@
                                         <div class="rating_star">
                                             <img src="./assets/images/4_star.png" alt="Rating">
                                         </div>
-                                        <div class="rating_star">
+                                        <div class="rating_star1">
                                             <p> 10 days</p>
                                         </div>
                                     </div>
-                                    <div class="btn">
-                                        <button type="button">
-                                            View More
-                                        </button>
-                                    </div>
-                                </div>
-                            </img>
+                                   
+                            </div>
+                            <div class="btn">
+                                <button type="button">
+                                    View More
+                                </button>
+                            </div>
+                            
                         </div>
 
                         <div class="bottoms">
                             <img src="./assets/images/card.png" alt="Card">
-                                <div class="text">
+                                <div class="text_bottom">
                                 <div class="name_doller_main">
                                     <div class="name_doller_sub">
                                         <p>El Greco</p>
 
                                     </div>
 
-                                    <div class="name_doller_sub">
+                                    <div class="name_doller_sub1">
                                     <p class='doller'>255$</p>
 
                                     </div>
@@ -327,29 +351,30 @@
                                         <div class="rating_star">
                                             <img src="./assets/images/4_star.png" alt="Rating">
                                         </div>
-                                        <div class="rating_star">
+                                        <div class="rating_star1">
                                             <p> 10 days</p>
                                         </div>
                                     </div>
-                                    <div class="btn">
-                                        <button type="button">
-                                            View More
-                                        </button>
-                                    </div>
+                                    
+                                </div>
+                                <div class="btn">
+                                    <button type="button">
+                                        View More
+                                    </button>
                                 </div>
                             </img>
                         </div>
 
                         <div class="bottoms">
                             <img src="./assets/images/card.png" alt="Card">
-                                <div class="text">
+                                <div class="text_bottom">
                                 <div class="name_doller_main">
                                     <div class="name_doller_sub">
                                         <p>El Greco</p>
 
                                     </div>
 
-                                    <div class="name_doller_sub">
+                                    <div class="name_doller_sub1">
                                     <p class='doller'>255$</p>
                                         
                                     </div>
@@ -359,29 +384,30 @@
                                         <div class="rating_star">
                                             <img src="./assets/images/4_star.png" alt="Rating">
                                         </div>
-                                        <div class="rating_star">
+                                        <div class="rating_star1">
                                             <p> 10 days</p>
                                         </div>
                                     </div>
-                                    <div class="btn">
-                                        <button type="button">
-                                            View More
-                                        </button>
-                                    </div>
+                                   
+                                </div>
+                                <div class="btn">
+                                    <button type="button">
+                                        View More
+                                    </button>
                                 </div>
                             </img>
                         </div>
 
                         <div class="bottoms">
                             <img src="./assets/images/card.png" alt="Card">
-                                <div class="text">
+                                <div class="text_bottom">
                                 <div class="name_doller_main">
                                     <div class="name_doller_sub">
                                         <p>El Greco</p>
 
                                     </div>
 
-                                    <div class="name_doller_sub">
+                                    <div class="name_doller_sub1">
                                     <p class='doller'>255$</p>
 
                                     </div>
@@ -391,31 +417,44 @@
                                         <div class="rating_star">
                                             <img src="./assets/images/4_star.png" alt="Rating">
                                         </div>
-                                        <div class="rating_star">
+                                        <div class="rating_star1">
                                             <p>10 days</p>
                                         </div>
                                     </div>
 
-                                    <div class="btn">
-                                        <button type="button">
-                                            View More
-                                        </button>
-                                    </div>
+                                   
+                                </div>
+                                <div class="btn">
+                                    <button type="button">
+                                        View More
+                                    </button>
                                 </div>
                             </img>
+
+                            
                         </div>
+                      
+    
                     </div>
+                  
+                    <div class="viewallo">
+                     <a href=""><p> View all offers</p></a>
+                    </div>
+                   
                 </div>
+               
             </section>
 
-
+            
+           
             <!-- Blog Section -->
 
             <section class="blog">
                 <div class="container">
                     <div class="img">
                             <div class="head">
-                                <h3>And then God said let there be a Greece</h3>
+                                <!-- <h3>And then God said let there be a Greece</h3> -->
+                                <img src="./assets/images/txt.png" alt="txt">
                                 <div class="subHead">
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae voluptates ipsam nulla deleniti culpa, autem adipisci inventore reprehenderit laboriosam similique illum laborum asperiores delectus ratione itaque, cumque debitis, quae facere.</p>
                                 </div>

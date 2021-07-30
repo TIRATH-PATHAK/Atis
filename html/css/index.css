@@ -322,7 +322,7 @@ button{
 /* 5. Blog Section */
 
 .blog .img{
-    background-image: url('/Atis/html/assets/images/waterbg.png');
+    background-image: url('../assets/images/waterbg.png');
     padding: 20%;
     background-size: cover;
 }
